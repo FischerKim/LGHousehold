@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{44EB5045-2F3B-4DC1-BFBC-F91272C3300E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShampDesign</RootNamespace>
+    <AssemblyName>ShampDesign</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cognex.VisionPro, Version=53.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=x86" />
+    <Reference Include="Cognex.VisionPro.Core, Version=53.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=x86" />
+    <Reference Include="Cognex.VisionPro.Display.Controls, Version=53.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=x86" />
+    <Reference Include="Cognex.VisionPro.Interop.Core, Version=53.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.PMAlign, Version=53.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=x86" />
+    <Reference Include="Daekhon.Common">
+      <HintPath>..\..\..\\Daekhon.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Daekhon.Control.Custom">
+      <HintPath>..\..\..\\Daekhon.Control.Custom.dll</HintPath>
+    </Reference>
+    <Reference Include="Jhjo.File.DB">
+      <HintPath>..\..\..\\Jhjo.File.DB.dll</HintPath>
+    </Reference>
+    <Reference Include="Jhjo.Util.File">
+      <HintPath>..\..\..\\Jhjo.Util.File.dll</HintPath>
+    </Reference>
+    <Reference Include="Jhjo.Util.Print">
+      <HintPath>..\..\..\\Jhjo.Util.Print.dll</HintPath>
+    </Reference>
+    <Reference Include="PylonC.NET, Version=4.0.2.3531, Culture=neutral, PublicKeyToken=a77e8471c5919d5a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Pylon.NETSupportLibrary\bin\Debug\PylonC.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acquisition\CAcquisitionManager.cs" />
+    <Compile Include="Acquisition\CBasler.cs" />
+    <Compile Include="CEnvironment.cs" />
+    <Compile Include="frmIOController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIOController.Designer.cs">
+      <DependentUpon>frmIOController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmToolRuler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmToolRuler.Designer.cs">
+      <DependentUpon>frmToolRuler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IO\CControlBox.cs" />
+    <Compile Include="IO\CIOSignal.cs" />
+    <Compile Include="IO\CPCIAPI.cs" />
+    <Compile Include="IO\IOProcessor\CIOGeneral.cs" />
+    <Compile Include="IO\IOProcessor\CIOPulser.cs" />
+    <Compile Include="IO\IOProcessor\_Interface\IIOProcessor.cs" />
+    <Compile Include="Screen\UcReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screen\UcReport.Designer.cs">
+      <DependentUpon>UcReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tool\CImageSaveTool.cs" />
+    <Compile Include="DB\CDB.cs" />
+    <Compile Include="frmCameraSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCameraSelector.Designer.cs">
+      <DependentUpon>frmCameraSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoad.Designer.cs">
+      <DependentUpon>frmLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recipe\CDesignFinderRecipe.cs" />
+    <Compile Include="Recipe\CShampFaultRecipe.cs" />
+    <Compile Include="Recipe\CRecipeManager.cs" />
+    <Compile Include="Result\CDesignFinderResult.cs" />
+    <Compile Include="Result\CShampFaultResult.cs" />
+    <Compile Include="Screen\UcHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screen\UcHome.Designer.cs">
+      <DependentUpon>UcHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen\UcRecipe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screen\UcRecipe.Designer.cs">
+      <DependentUpon>UcRecipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen\_Parent\UcScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screen\_Parent\UcScreen.Designer.cs">
+      <DependentUpon>UcScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tool\CDesignFinderTool.cs" />
+    <Compile Include="Tool\CShampFaultTool.cs" />
+    <EmbeddedResource Include="frmCameraSelector.resx">
+      <DependentUpon>frmCameraSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIOController.resx">
+      <DependentUpon>frmIOController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoad.resx">
+      <DependentUpon>frmLoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmToolRuler.resx">
+      <DependentUpon>frmToolRuler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Screen\UcHome.resx">
+      <DependentUpon>UcHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen\UcRecipe.resx">
+      <DependentUpon>UcRecipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen\UcReport.resx">
+      <DependentUpon>UcReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen\_Parent\UcScreen.resx">
+      <DependentUpon>UcScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\System.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pylon.NETSupportLibrary\Pylon.NETSupportLibrary.csproj">
+      <Project>{3EAFC9F5-D49F-4F9F-86C8-FBD231B07D2E}</Project>
+      <Name>Pylon.NETSupportLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

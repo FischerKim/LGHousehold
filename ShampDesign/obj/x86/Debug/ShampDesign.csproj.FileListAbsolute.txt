@@ -1,0 +1,44 @@
+D:\인수인계\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.csprojResolveAssemblyReference.cache
+D:\인수인계\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.frmCameraSelector.resources
+D:\인수인계\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.frmIOController.resources
+D:\인수인계\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.frmLoad.resources
+D:\인수인계\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.frmMain.resources
+D:\인수인계\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.frmToolRuler.resources
+D:\인수인계\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.Properties.Resources.resources
+D:\인수인계\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.UcHome.resources
+D:\인수인계\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.UcRecipe.resources
+D:\인수인계\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.UcReport.resources
+D:\인수인계\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.UcScreen.resources
+D:\인수인계\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.csproj.GenerateResource.Cache
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.csprojResolveAssemblyReference.cache
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.frmCameraSelector.resources
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.frmIOController.resources
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.frmLoad.resources
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.frmMain.resources
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.frmToolRuler.resources
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.Properties.Resources.resources
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.UcHome.resources
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.UcRecipe.resources
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.UcReport.resources
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.UcScreen.resources
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.csproj.GenerateResource.Cache
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\bin\Debug\ShampDesign.exe
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\bin\Debug\ShampDesign.pdb
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\bin\Debug\PylonC.NETSupportLibrary.dll
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\bin\Debug\PylonC.NETSupportLibrary.pdb
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.exe
+E:\02. Project\인수인계\5. 대전\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.pdb
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.exe
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.pdb
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.csprojResolveAssemblyReference.cache
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.frmCameraSelector.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.frmIOController.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.frmLoad.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.frmMain.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.frmToolRuler.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.Properties.Resources.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.UcHome.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.UcRecipe.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.UcReport.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.UcScreen.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Debug\ShampDesign.csproj.GenerateResource.Cache

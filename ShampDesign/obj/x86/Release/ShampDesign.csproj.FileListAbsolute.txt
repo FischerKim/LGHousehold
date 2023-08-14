@@ -1,0 +1,12 @@
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Release\ShampDesign.csprojResolveAssemblyReference.cache
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Release\ShampDesign.frmCameraSelector.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Release\ShampDesign.frmIOController.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Release\ShampDesign.frmLoad.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Release\ShampDesign.frmMain.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Release\ShampDesign.frmToolRuler.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Release\ShampDesign.Properties.Resources.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Release\ShampDesign.UcHome.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Release\ShampDesign.UcRecipe.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Release\ShampDesign.UcReport.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Release\ShampDesign.UcScreen.resources
+F:\인수인계[대전]\LG생활건강\샴푸 문양 비젼\ShampDesign\obj\x86\Release\ShampDesign.csproj.GenerateResource.Cache
